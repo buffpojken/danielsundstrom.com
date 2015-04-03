@@ -1,0 +1,1 @@
+jekyll build && cd _site && rsync -rui . sykewarrior.com:/sites/danielsundstrom.com/

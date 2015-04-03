@@ -1,0 +1,12 @@
+# Site settings
+title: Daniel Sundström
+email: me@danielsundstrom.com
+description: > # this means to ignore newlines until "baseurl:"
+  Sailors on the sea of code need only to follow the constellations of the blinking servers.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://danielsundstrom.com" # the base hostname & protocol for your site
+twitter_username: buffpojken
+github_username:  buffpojken
+
+# Build settings
+markdown: kramdown
