@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 function renderScene(){
 	clearInterval(window.drawLoop);
-	  WIDTH = $('#container').width();
+	  WIDTH = $("#container").width();
 	  HEIGHT = $('#container').height();
 		canvas = document.getElementById('canvas');
 		$(canvas).attr('width', WIDTH).attr('height',HEIGHT);

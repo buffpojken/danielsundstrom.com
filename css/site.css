@@ -1,0 +1,77 @@
+#container{
+	border-top:3px #aaa solid;
+}
+
+#canvas{
+	position:absolute;
+	height:400px;
+	width:100%;
+}
+
+.presentation-container{
+	position:relative;
+	top:60px;
+}
+
+.site-footer{
+	display:none;
+}
+
+#presentation{
+	background-color:rgba(255,255,255,0.8);
+}
+
+#presentation h1{
+	font-family:"Noto Sans";
+	text-align: center;
+	margin-bottom:60px;
+}
+
+#presentation p{
+	font-family:"Noto Sans";
+	margin-bottom:30px;
+}
+
+footer{
+	margin-top:100px;
+}
+
+.contact-list{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.contact-list img{
+	width:50%;
+}
+
+.social-media-icons, .contact-list{
+	text-align: center;
+
+}
+
+.social-media-icons a{
+	width:60px;
+	display:inline-block;
+	margin:40px 10px;
+}
+
+
+@media only screen and (min-width:768px) { 
+	
+	.contact-list img{
+		width:100%;
+	}
+
+	.social-media-icons, .contact-list{
+		margin-top:40px;
+	}
+
+	.social-media-icons a {
+		margin-top:0px;
+	}
+
+
+}
+
