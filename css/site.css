@@ -21,6 +21,20 @@
 	background-color:rgba(255,255,255,0.8);
 }
 
+#compass{
+	width:150px;
+	height:150px;
+	background-image:url('/images/compass@1x.png');
+	margin:0px auto 80px auto;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	#compass{
+		background-image:url('/images/compass@2x.png'); 
+		background-size: 150px 150px;
+	}
+}
+
 #presentation h1{
 	font-family:"Noto Sans";
 	text-align: center;
