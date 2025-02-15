@@ -5,10 +5,10 @@ layout: default
 
   <div class="rounded-full w-44 h-44 bg-slate-200 mx-auto mb-4"></div>
 
-  <h1 class="text-4xl text-slate-800 font-black text-center mb-8">Daniel Sundström</h1>
+  <h1 class="text-4xl text-slate-800 dark:text-slate-200 font-black text-center mb-8">Daniel Sundström</h1>
 
-  <section class="border-t-4 border-b-2 border-slate-200 py-2 flex flex-row items-center mb-4.5">
-    <h2 class="font-light text-2xl">CTO</h2>
+  <section class="border-t-4 border-b-2 border-slate-200 dark:border-white/10 py-2 flex flex-row items-center mb-4.5">
+    <h2 class="font-light dark:text-slate-200 text-2xl">CTO</h2>
 
     <nav class="flex flex-row items-center ml-auto">
       <a href="#" class="inline-block w-7 h-7 bg-github bg-center bg-no-repeat"></a>
@@ -20,12 +20,45 @@ layout: default
     Architect and developer with a background in web development, mobile apps, large information systems and game design. Has built many different things ranging from voting systems to game engines to learning platforms.
   </p>
 
-  <a href="#" class="inline-block bg-slate-300 hover:bg-slate-700 hover:text-white px-6 py-3 rounded-md mx-auto mt-7 text-lg mb-12">Contact me</a>
+  <a href="#" class="inline-block dark:bg-slate-700 dark:text-white dark:hover:bg-slate-300 dark:hover:text-slate-800 bg-slate-300 hover:bg-slate-700 hover:text-white px-6 py-3 rounded-md mx-auto mt-7 text-lg mb-12">Contact me</a>
 
 
   <section class="mb-12">
-    <header class="border-t-4 border-b-2 border-slate-200 py-2 flex flex-row items-center mb-4.5">
-      <h2 class="text-3xl text-slate-800 font-black">Experience</h2>
+    <header class="border-t-4 border-b-2 border-slate-200 dark:border-white/10 py-2 flex flex-row items-center mb-4.5">
+      <h2 class="text-3xl text-slate-800 dark:text-slate-200 font-black">Experience</h2>
+    </header>
+    <ul class="">
+      {% for experience in site.experiences reversed %}
+        {% include _experience.html experience=experience %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="mb-12">
+    <header class="border-t-4 border-b-2 border-slate-200 dark:border-white/10 py-2 flex flex-row items-center mb-4.5">
+      <h2 class="text-3xl dark:text-slate-200 font-black">Projects</h2>
+    </header>
+    <ul class="">
+      {% for experience in site.experiences reversed %}
+        {% include _experience.html experience=experience %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="mb-12">
+    <header class="border-t-4 border-b-2 border-slate-200 dark:border-white/10 py-2 flex flex-row items-center mb-4.5">
+      <h2 class="text-3xl dark:text-slate-200 font-black">Skills</h2>
+    </header>
+    <ul class="">
+      {% for experience in site.experiences reversed %}
+        {% include _experience.html experience=experience %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="mb-12">
+    <header class="border-t-4 border-b-2 border-slate-200 dark:border-white/10 py-2 flex flex-row items-center mb-4.5">
+      <h2 class="text-3xl dark:text-slate-200 font-black">Recognition</h2>
     </header>
     <ul class="">
       {% for experience in site.experiences reversed %}

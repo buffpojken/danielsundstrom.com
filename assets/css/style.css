@@ -11,6 +11,8 @@
   --background-size-twitter: 28px 28px;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @utility bg-* {
   background-size: --value(--background-size-*)
 }
@@ -19,6 +21,11 @@
   @apply mb-2;
 }
 
+.content-block p:last-child{
+  @apply mb-0;
+}
+
 .content-block ul{
   @apply list-disc list-inside ml-4 my-4;
 }
+
