@@ -7,8 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://danielsundstrom.com" # the base hostname & protocol for your site
 twitter_username: buffpojken
 github_username:  buffpojken
-
-# Build settings
+collections:
+  - experiences
 markdown: kramdown
 plugins:
   - jekyll-tailwind

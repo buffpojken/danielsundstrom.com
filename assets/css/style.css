@@ -14,3 +14,11 @@
 @utility bg-* {
   background-size: --value(--background-size-*)
 }
+
+.content-block p{
+  @apply mb-2;
+}
+
+.content-block ul{
+  @apply list-disc list-inside ml-4 my-4;
+}
