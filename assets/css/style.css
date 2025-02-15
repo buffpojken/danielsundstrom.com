@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=auto");
+@import "tailwindcss";
+
+@theme {
+  --font-noto-sans: "Noto Sans", sans-serif; 
+
+  --background-image-github: url(/assets/images/github.svg); 
+  --background-size-github: 28px 28px; 
+
+  --background-image-twitter: url(/assets/images/twitter.svg);
+  --background-size-twitter: 28px 28px;
+}
+
+@utility bg-* {
+  background-size: --value(--background-size-*)
+}

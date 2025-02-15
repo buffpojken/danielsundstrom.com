@@ -10,3 +10,7 @@ github_username:  buffpojken
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-tailwind
+tailwind:
+  input: assets/css/style.css
