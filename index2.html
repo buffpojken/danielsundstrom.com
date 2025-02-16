@@ -36,22 +36,22 @@ layout: default
 
   <section class="mb-12">
     <header class="border-t-4 border-b-2 border-slate-200 dark:border-white/10 py-2 flex flex-row items-center mb-4.5">
-      <h2 class="text-3xl dark:text-slate-200 font-black">Projects</h2>
+      <h2 class="text-3xl dark:text-slate-200 font-black">Skills</h2>
     </header>
     <ul class="">
-      {% for experience in site.experiences reversed %}
-        {% include _experience.html experience=experience %}
+      {% for skill in site.skills %}
+        {% include _skill.html skill=skill %}
       {% endfor %}
     </ul>
   </section>
 
   <section class="mb-12">
     <header class="border-t-4 border-b-2 border-slate-200 dark:border-white/10 py-2 flex flex-row items-center mb-4.5">
-      <h2 class="text-3xl dark:text-slate-200 font-black">Skills</h2>
+      <h2 class="text-3xl dark:text-slate-200 font-black">Projects</h2>
     </header>
     <ul class="">
-      {% for experience in site.experiences reversed %}
-        {% include _experience.html experience=experience %}
+      {% for project in site.projects reversed %}
+        {% include _project.html project=project %}
       {% endfor %}
     </ul>
   </section>
@@ -61,7 +61,7 @@ layout: default
       <h2 class="text-3xl dark:text-slate-200 font-black">Recognition</h2>
     </header>
     <ul class="">
-      {% for experience in site.experiences reversed %}
+      {% for certifications in site.certifications reversed %}
         {% include _experience.html experience=experience %}
       {% endfor %}
     </ul>

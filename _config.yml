@@ -9,6 +9,9 @@ twitter_username: buffpojken
 github_username:  buffpojken
 collections:
   - experiences
+  - projects
+  - skills
+  - certifications
 markdown: kramdown
 plugins:
   - jekyll-tailwind
