@@ -1,6 +1,7 @@
 ---
 name: Nike - Your Year
 timeline: 2015
+role: Technical Lead
 links:
   - name: The Wall Street Journal
     url: https://www.wsj.com/articles/BL-269B-2425

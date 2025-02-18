@@ -1,6 +1,7 @@
 ---
 name: The Monitor Celestra
 timeline: 2013
+role: Technical Lead
 links:
   - name: Can a real-life ‘Battlestar Galactica’ cross the Atlantic?
     source: The Verge

@@ -1,6 +1,7 @@
 ---
 name: Conspiracy for Good
 timeline: 2009-2010
+role: Technical Lead
 links:
   - name: Conspiracy for Good
     source: Wired
