@@ -61,8 +61,8 @@ layout: default
       <h2 class="text-3xl dark:text-slate-200 font-black">Associations</h2>
     </header>
     <ul class="">
-      {% for certifications in site.certifications reversed %}
-        {% include _experience.html experience=experience %}
+      {% for association in site.associations reversed %}
+        {% include _association.html association=association %}
       {% endfor %}
     </ul>
   </section>

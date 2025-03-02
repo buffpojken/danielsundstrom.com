@@ -12,6 +12,7 @@ collections:
   - projects
   - skills
   - certifications
+  - associations
 markdown: kramdown
 plugins:
   - jekyll-tailwind
